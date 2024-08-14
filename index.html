@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!--style.css-->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!--nav code-->
+            <div class="col-lg-2 nav">
+                <div class="bname d-none d-lg-block ">
+                    <img src="img/bname.svg" id="bpic">
+                    <p style="font-size: 13px; color:#9EA0B7; font-style: italic; line-height: 0px; text-align: center; margin-top: -7px;">Explore <strong style="color:rgb(241, 241, 79);">Plus</strong></p>
+                </div>
+
+
+                <!--in small screen -->
+
+                <div class="sflip d-lg-none">
+                    <img src="img/f.svg" style="width:50%; height:30px; margin-left:40px; margin-top:5px;">
+                </div>
+                <div class="sflip d-lg-none" style="background-color: #F2F4F7;">
+                    <img src="img/g.svg" style="width:50%; height:30px; margin-left:40px; margin-top:5px;">
+                </div>
+
+
+
+            </div>
+            
+            <div class="col-lg-5 col-12 nav">
+                <input type="search" placeholder="Search for Product,brand and more" id="search">
+            </div>
+            
+            <div class="col-lg-2 d-none d-lg-block nav">
+                <div class="baseller">
+                    <img src="img/seller.svg" id="spic">
+                    <p style="padding-left: 20px; font-size: 18px; padding-top: 6px;">Become a Seller</p>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 d-none d-lg-block nav">
+                <a href="login.html"><button id="sbtn">Sign in</button></a>
+                <img src="img/sin.svg" id="sinpic">
+
+                <button id="cartbtn">Cart</button>
+                <img src="img/cart.svg" id="sinpic">
+
+            </div>
+
+            <!--box-one-->
+            <div class="col-lg-12 prouct">
+
+                <div class="proinner">
+
+                    <div class="pcontainer">
+                        <div class="pimg">
+                            <img src="img/off.webp" id="proimg">
+                   </div>
+                   <p style="text-align: center; font-weight: 500; line-height: 0px;" id="fq">Top Offers</p>
+                    </div>
+
+                    <div class="pcontainers">
+                        <div class="pimg">
+                            <img src="img/mobile.png" id="proimg">
+                        </div>
+                        <p style="text-align: center; font-weight: 500; line-height: 0px; " id="fq">Mobile,Tablets</p>
+                    </div>
+                    
+                    <div class="pcontainers">
+                        <div class="pimg">
+                            <img src="img/electronic.webp" id="proimg">
+                        </div>
+                        <p style="text-align: center; font-weight: 500; line-height: 0px;" id="fq">Electronics</p>
+                    </div>
+                    
+                    <div class="pcontainers">
+                        <div class="pimg">
+                            <img src="img/tv.webp" id="proimg">
+                        </div>
+                        <p style="text-align: center; font-weight: 500; line-height: 0px;" id="fq">Tv & Appliances</p>
+                    </div>
+                    
+                    <div class="pcontainers d-none d-lg-block">
+                        <div class="pimg">
+                            <img src="img/fashion.webp" id="proimg">
+                        </div>
+                        <p style="text-align: center; font-weight: 500; line-height: 0px;">Fashion</p>
+                    </div>
+                    
+                    <div class="pcontainers d-none d-lg-block">
+                        <div class="pimg">
+                            <img src="img/buety.webp" id="proimg">
+                            
+                        </div>
+                        <p style="text-align: center; font-weight: 500;line-height: 0px; ">Beauty</p>
+                    </div>
+                    
+                    <div class="pcontainers d-none d-lg-block">
+                        <div class="pimg">
+                            <img src="img/home.webp" id="proimg">
+                            
+                        </div>
+                        <p style="text-align: center; font-weight: 500; line-height: 0px; ">Home & Kitchen</p>
+                    </div>
+                    
+                    <div class="pcontainers d-none d-lg-block">
+                        <div class="pimg">
+                            <img src="img/furniture.webp" id="proimg">
+                            
+                        </div>
+                        <p style="text-align: center; font-weight: 500; line-height: 0px;">Furniture</p>
+                    </div>
+
+                    <div class="pcontainers d-none d-lg-block">
+                        <div class="pimg">
+                            <img src="img/flight.webp" id="proimg">
+                            
+                        </div>
+                        <p style="text-align: center; font-weight: 500; line-height: 0px;">Flight</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--slider-->
+                <div class="col-lg-12 slider">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/slide-one.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/slide-two.webp" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/slide-three.webp" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+
+                <!--bank offer-->
+                <div class="col-lg-12 bank">
+                    <img src="img/banks.webp" id="banksoff">
+                </div>
+
+                <!--baNNER-->
+                <div class="col-lg-12 banner">
+
+                    <div class="banners">
+                        <img src="img/samsung.webp" id="sam">
+                    </div>
+                    
+                    <div class="banners">
+                        <img src="img/laptop.webp" id="sam">
+                    </div>
+                    
+                    <div class="banners">
+                        <img src="img/machine.webp" id="sam">
+                    </div>
+                
+                </div>
+                
+                <!--main product-->
+                <div class="col-lg-12 mpro">
+
+                    <div class="mproimg">
+                        <div class="phead">
+                            <p style="font-size: 20px; padding-left: 10px; padding-top: 5px; font-weight: bold;">Best Mobile</p>
+                        </div>
+                        <!--mmobile links-->
+
+                        <div class="mobile">
+                            <div class="mimg">
+                                <img src="img/mone.webp" id="msale">
+                            </div>
+                            <div class="detail">
+                            <p style="text-align: center; line-height: 0px; padding-top: 10px;" id="mpara">Motorola Edge 40</p>
+                            <p style="text-align: center; line-height: 0px; font-weight: bold;" id="mpara">incl of power</p>
+                        </div>
+                        </div>
+
+                        <div class="mobile">
+                            <div class="mimg">
+                                <img src="img/mtwo.webp" id="msale">
+                            </div>
+                            <div class="detail">
+                            <p style="text-align: center; line-height: 0px; padding-top: 10px;" id="mpara">Vivo T2</p>
+                            <p style="text-align: center; line-height: 0px; font-weight: bold;" id="mpara">incl of power</p>
+                        </div>
+                        </div>
+                        
+                        <div class="mobile">
+                            <div class="mimg">
+                                <img src="img/mthree.webp" id="msale">
+                            </div>
+                            <div class="detail">
+                                <p style="text-align: center; line-height: 0px; padding-top: 10px;" id="mpara">Motorola G54</p>
+                            <p style="text-align: center; line-height: 0px; font-weight: bold;" id="mpara">incl of power</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mobile">
+                            <div class="mimg">
+                                <img src="img/mfour.webp" id="msale">
+                            </div>
+                            <div class="detail">
+                                <p style="text-align: center; line-height: 0px; padding-top: 10px;" id="mpara">Samsung S22</p>
+                            <p style="text-align: center; line-height: 0px; font-weight: bold;" id="mpara">incl of power</p>
+                            </div>
+                        </div>
+                        <!--hide on small screen-->
+                        <div class="mobile d-none d-lg-block">
+                            <div class="mimg">
+                                <img src="img/mone.webp" id="msale">
+                            </div>
+                            <p style="text-align: center; line-height: 0px; padding-top: 10px;">Motorola Edge 40</p>
+                            <p style="text-align: center; line-height: 0px; font-weight: bold;">incl of power</p>
+                        </div>
+                        
+                        <div class="mobile d-none d-lg-block">
+                            <div class="mimg">
+                                <img src="img/mthree.webp" id="msale">
+                            </div>
+                            <p style="text-align: center; line-height: 0px; padding-top: 10px;">Motorola G54</p>
+                            <p style="text-align: center; line-height: 0px; font-weight: bold;">incl of power</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="pster d-none d-lg-block">
+                        <img src="img/mahi.webp" id="poster">
+                    </div>
+                    
+                </div>
+
+                <!--footer-->
+                <div class="col-lg-12 fpara">
+                    
+                    <div class="bone">
+                        <p style="font-size: 14px; padding-left: 35px; padding-top: 15px; color:#878787;">ABOUT</p>
+
+                        <ul style="list-style: none;">
+                            <li><a href="#" id="ftag">Contact us</a></li>
+                            <li><a href="#" id="ftag">About us</a></li>
+                            <li><a href="#" id="ftag">Career</a></li>
+                            <li><a href="#" id="ftag">Flipkart stories</a></li>
+                            <li><a href="#" id="ftag">Press</a></li>
+                            <li><a href="#" id="ftag">Flipkart Wholesale</a></li>
+                            <li><a href="#" id="ftag">ClearTrip</a></li>
+                            <li><a href="#" id="ftag">Corporate Information</a></li>
+                        </ul>
+
+
+                    </div>
+
+                    <div class="bone">
+                        <p style="font-size: 14px; padding-left: 35px; padding-top: 15px; color:#878787;">HELP</p>
+
+                        <ul style="list-style: none;">
+                            <li><a href="#" id="ftag">Payment</a></li>
+                            <li><a href="#" id="ftag">Shipping</a></li>
+                            <li><a href="#" id="ftag">Cancelletion & Return</a></li>
+                            <li><a href="#" id="ftag">FAQ</a></li>
+                            <li><a href="#" id="ftag">Report Infregriment</a></li>
+                           
+                        </ul>
+                    </div>
+
+                    <div class="bone">
+                        <p style="font-size: 14px; padding-left: 35px; padding-top: 15px; color:#878787;">CONSUMER POLICY</p>
+
+                        <ul style="list-style: none;">
+                            <li><a href="#" id="ftag">Cancelletion & Return</a></li>
+                            <li><a href="#" id="ftag">Term and use</a></li>
+                            <li><a href="#" id="ftag">Security</a></li>
+                            <li><a href="#" id="ftag">Privacy</a></li>
+                            <li><a href="#" id="ftag">Sitemap</a></li>
+                            <li><a href="#" id="ftag">Grevence Redeness</a></li>
+                            <li><a href="#" id="ftag">EPR complies</a></li>
+                           
+                        </ul>
+                    </div>
+
+                    <div class="bone">
+                        <p style="font-size: 14px; padding-left: 35px; padding-top: 15px; color:#878787;">SOCIAL</p>
+
+                        <ul style="list-style: none;">
+                            <li><a href="#" id="ftag">Facebook</a></li>
+                            <li><a href="#" id="ftag">Twitter</a></li>
+                            <li><a href="#" id="ftag">Youtube</a></li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="bone">
+                        <p style="font-size: 14px; padding-left: 35px; padding-top: 15px; color:#878787;">Mail us ;</p>
+
+                        <ul style="list-style: none;">
+                            <li><a href="#" id="ftag" style="font-size: 13px; font-weight: 100;">Flipkart internet private limites</a></li>
+                            <li><a href="#" id="ftag" style="font-size: 13px; font-weight: 100;">Building Analysis,Begonia &</a></li>
+                            <li><a href="#" id="ftag" style="font-size: 13px; font-weight: 100;">Clove Embassy texh Village</a></li>
+                            <li><a href="#" id="ftag" style="font-size: 13px; font-weight: 100;">Outer Ring Road,Devarabeesanahalli village</a></li>
+                            <li><a href="#" id="ftag" style="font-size: 13px; font-weight: 100;">Bengaluru.560103</a></li>
+                            <li><a href="#" id="ftag" style="font-size: 13px; font-weight: 100;">Karnataka India</a></li>
+                           
+                        </ul>
+                    </div>
+
+                    <div class="bone">
+                        <p style="font-size: 14px; padding-left: 35px; padding-top: 15px; color:#878787;">Ragistered Office address</p>
+
+                        <ul style="list-style: none;">
+                            <li><a href="#" id="ftag" style="font-size: 13px; font-weight: 100;">Flipkart internet private limites</a></li>
+                            <li><a href="#" id="ftag" style="font-size: 13px; font-weight: 100;">Building Analysis,Begonia &</a></li>
+                            <li><a href="#" id="ftag" style="font-size: 13px; font-weight: 100;">Clove Embassy texh Village</a></li>
+                            <li><a href="#" id="ftag" style="font-size: 13px; font-weight: 100;">Outer Ring Road,Devarabeesanahalli village</a></li>
+                            <li><a href="#" id="ftag" style="font-size: 13px; font-weight: 100;">Bengaluru.560103</a></li>
+                            <li><a href="#" id="ftag" style="font-size: 13px; font-weight: 100;">Karnataka India</a></li>
+                           
+                            <li><a href="#" id="ftag" style="font-size: 13px; font-weight: 100;">CIN: U51109KA2012PTCO66107 </a></li>
+                            <li><a href="#" id="ftag" style="font-size: 13px; font-weight: 100;">TEL-98356-333-8350</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!--last-->
+                        <div class="col-lg-12 lastf">
+                            <div class="lone">
+                                <img src="img/sell-image-9de8ef.svg" style="float:left; margin-left:10px; margin-top: 10px;">
+                                <p style="color:white; font-size: 10px; padding-left:10px; padding-top: 10px;">Become a Seller</p>
+                            </div>
+                            <div class="lone">
+                                <img src="img/advertise-image-866c0b.svg" style="float:left; margin-left:10px; margin-top: 10px;">
+                                <p style="color:white; font-size: 10px; padding-left:10px; padding-top: 10px;">Advertise</p>
+                            </div>
+                            <div class="lone">
+                                <img src="img/gift-cards-image-d7ff24.svg" style="float:left; margin-left:10px; margin-top: 10px;">
+                                <p style="color:white; font-size: 10px; padding-left:10px; padding-top: 10px;">Gift Card</p>
+                            </div>
+                            <div class="lone">
+                                <img src="img/help-centre-image-c4ace8.svg" style="float:left; margin-left:10px; margin-top: 10px;">
+                                <p style="color:white; font-size: 10px; padding-left:10px; padding-top: 10px;">Help centers</p>
+                            </div>
+                            <div class="lone">
+                                <p style="color:white; font-size: 10px; padding-left:10px; padding-top: 10px;">@ 2007-2023 Flipkart</p>
+                            </div>
+
+
+                            <div class="limg">
+                                <img src="img/limg.svg" style="width:100%;">
+                            </div>
+                        </div>
+                
+
+            <!--container and row closing tag-->
+        </div>
+    </div>
+
+    <script src="flip.js"></script>
+    
+</body>
+</html>
